@@ -49,7 +49,7 @@ const styles = StyleSheet.create({
     button :{
         backgroundColor:'pink',
         alignItems:'center',
-        alignSelf:'center',
+        alignSelf:'center'
     }
     
   });
