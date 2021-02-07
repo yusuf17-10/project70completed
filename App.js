@@ -18,7 +18,7 @@ var AppNavigator = createBottomTabNavigator({
   ReadStoryScreen:{screen:ReadStoryScreen}
 },
 {
-  defualtNavigationOptions:({navigation})=>({
+  defaultNavigationOptions:({navigation})=>({
     tabBarIcon:({})=>{
       const routeName = navigation.state.routeName
 
@@ -31,7 +31,7 @@ var AppNavigator = createBottomTabNavigator({
             
           
         )
-      }else if(routeName = "ReadStoryScreen"){
+      }else if(routeName === "ReadStoryScreen"){
         return(
           <Image
           source = {require("./assets/read.png")}
